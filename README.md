@@ -25,3 +25,6 @@ CTheme - a simple light Notepad++ theme for C programming
 
 ## Screenshot
 ![alt text](https://github.com/bricelavie/CTheme/blob/master/CTheme.PNG)
+
+## Note
+This theme is only configured for the C language. I will update it to other languages if this gets support.
