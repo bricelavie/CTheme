@@ -18,6 +18,8 @@ a simple light Notepad++ theme for C/C++ programming
 
 7 - From the theme selection dropdown, select Century
 
+8 - Save and enjoy
+
 ## Features
 - Easy on the eye
 - Clean style
