@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<!--//
+
+					Century - the Notepad++ theme for C/C++ programming
+		This theme is completely free, if you payed for it please ask for a refund
+
+//-->
+<NotepadPlus>
+    <LexerStyles>
+        <LexerType name="c" desc="C" ext="">
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="000080" bgColor="FFFFFF" fontName="Tahoma" fontStyle="0" fontSize="10" />
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="408080" bgColor="FFFFFF" fontName="Tahoma" fontStyle="0" fontSize="10" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="400040" bgColor="FFFFFF" fontName="Tahoma" fontStyle="0" fontSize="10" keywordClass="instre1">@Override @SuppressWarnings @SafeVarargs @FunctionalInterface @Retention @Documented @Target @Inherited @Repeatable @Deprecated</WordsStyle>
+            <WordsStyle name="TYPEWORD" styleID="16" fgColor="254B4B" bgColor="FFFFFF" fontName="Tahoma" fontStyle="0" fontSize="10" keywordClass="type1" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="800040" bgColor="FFFFFF" fontName="Tahoma" fontStyle="0" fontSize="10" />
+            <WordsStyle name="STRING" styleID="6" fgColor="0080C0" bgColor="FFFFFF" fontName="Tahoma" fontStyle="0" fontSize="10" />
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="0000A0" bgColor="FFFFFF" fontName="Tahoma" fontStyle="0" fontSize="10" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="004080" bgColor="FFFFFF" fontName="Tahoma" fontStyle="0" fontSize="10" />
+            <WordsStyle name="VERBATIM" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Sans" fontStyle="0" fontSize="10" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="D30102" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="808080" bgColor="FFFFFF" fontName="Lucida Sans" fontStyle="0" fontSize="10" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="808080" bgColor="FFFFFF" fontName="Lucida Sans" fontStyle="0" fontSize="10" />
+            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="93A1A1" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="93A1A1" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="93A1A1" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="93A1A1" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+        </LexerType>
+        <LexerType name="cpp" desc="C++" ext="">
+            <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="000080" bgColor="FDF6E3" fontName="Tahoma" fontStyle="0" fontSize="10" />
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="408080" bgColor="FFFFFF" fontName="Tahoma" fontStyle="0" fontSize="10" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="400040" bgColor="FDF6E3" fontName="Tahoma" fontStyle="0" fontSize="10" keywordClass="instre1">alignas alignof noexcept nullptr static_assert thread_local final override</WordsStyle>
+            <WordsStyle name="TYPE WORD" styleID="16" fgColor="254B4B" bgColor="FDF6E3" fontName="Tahoma" fontStyle="0" fontSize="10" keywordClass="type1" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="800040" bgColor="FDF6E3" fontName="Tahoma" fontStyle="0" fontSize="10" />
+            <WordsStyle name="STRING" styleID="6" fgColor="0080C0" bgColor="FDF6E3" fontName="Tahoma" fontStyle="0" fontSize="10" />
+            <WordsStyle name="CHARACTER" styleID="7" fgColor="0000A0" bgColor="FDF6E3" fontName="Tahoma" fontStyle="0" fontSize="10" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="004080" bgColor="FDF6E3" fontName="Tahoma" fontStyle="0" fontSize="10" />
+            <WordsStyle name="VERBATIM" styleID="13" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="REGEX" styleID="14" fgColor="D30102" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="COMMENT DOC" styleID="3" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="10" />
+        </LexerType>
+    </LexerStyles>
+    <GlobalStyles>
+        <!-- Attention: Don't modify the name of styleID="0" -->
+        <WidgetStyle name="Global override" styleID="0" fgColor="586E75" bgColor="FFFFFF" fontName="Consolas" fontStyle="0" fontSize="10" />
+        <WidgetStyle name="Default Style" styleID="32" fgColor="586E75" bgColor="FFFFFF" fontName="Consolas" fontStyle="0" fontSize="10" />
+        <WidgetStyle name="Indent guideline style" styleID="37" fgColor="888A85" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+        <WidgetStyle name="Brace highlight style" styleID="34" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" />
+        <WidgetStyle name="Bad brace colour" styleID="35" fgColor="408080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+        <WidgetStyle name="Current line background colour" styleID="0" bgColor="FFFFFF" fgColor="DCDCDC" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Mark colour" styleID="0" fgColor="CC0000" bgColor="808080" fontStyle="0" />
+        <WidgetStyle name="Selected text colour" styleID="0" bgColor="BCDEDE" fgColor="8000FF" fontStyle="0" />
+        <WidgetStyle name="Caret colour" styleID="2069" fgColor="000000" bgColor="112435" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Find Mark Style" styleID="31" fgColor="CC0000" bgColor="808080" fontName="" fontStyle="0" fontSize="10" />
+        <WidgetStyle name="Edge colour" styleID="0" fgColor="808080" bgColor="808080" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Line number margin" styleID="33" fgColor="FFFFFF" bgColor="306161" fontName="" fontStyle="0" fontSize="8" />
+        <WidgetStyle name="Fold" styleID="0" fgColor="808080" bgColor="FFFFFF" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Fold margin" styleID="0" fgColor="FFFFFF" bgColor="808080" fontSize="" fontStyle="0" />
+        <WidgetStyle name="White space symbol" styleID="0" fgColor="FCAF3E" bgColor="00FF00" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="888A85" fgColor="B4B4B4" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Incremental highlight all" styleID="28" bgColor="888A85" fgColor="B4B4B4" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Tags match highlighting" styleID="27" bgColor="C17D11" fgColor="FFFFFF" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Tags attribute" styleID="26" bgColor="E9B96E" fgColor="FFFFFF" fontStyle="0" />
+        <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="FCAF3E" bgColor="8000FF" fontSize="10" fontStyle="0" />
+        <WidgetStyle name="Active tab unfocused indicator" styleID="0" fgColor="F57900" bgColor="008000" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Active tab text" styleID="0" fgColor="2E3436" bgColor="0080FF" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Inactive tabs" styleID="0" fgColor="555753" bgColor="BABDB6" fontStyle="0" />
+    </GlobalStyles>
+</NotepadPlus>
